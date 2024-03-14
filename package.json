@@ -2,10 +2,10 @@
   "name": "bubududu-valentine",
   "homepage": "https://github.com/danurrr/bubududu-valentine",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
-    "dev": "vite --host ayangkucintakumaniskumybubu.anu.biz.id --port 8080",
+    "dev": "vite --host ayangkucintakumaniskumybubu.anu.biz.id --port 80",
     "build": "tsc && vite build",
     "deploy": "vite build && gh-pages -d dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
